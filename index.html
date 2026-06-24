@@ -54,7 +54,7 @@
           "@context": "https://schema.org",
           "@type": "WebPage",
           "name": "Live Draw Lotto",
-          "dateModified": "2026-06-24T00:43:51.722792+07:00",
+          "dateModified": "2026-06-24T10:29:04.676913+07:00",
           "publisher": {
             "@type": "Organization",
             "name": "HK Lotto Draw Team"
@@ -354,6 +354,32 @@
             color: var(--color-text-dim);
             border-top: 2px solid var(--color-red-main);
         }
+        /* ===== FLOATING ADS ===== */
+
+        .floating-top,
+        .floating-bottom {
+            position: fixed;
+            z-index: 9999;
+            width: 35%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        .floating-top {
+            top: 0;
+        }
+
+        .floating-bottom {
+            bottom: 0;
+        }
+
+        .floating-top amp-img,
+        .floating-bottom amp-img {
+             width: 100%;
+            height: auto;
+            display: block;
+        }
 
         @media (min-width: 768px) {
             h1 {
@@ -362,6 +388,12 @@
 
             .nav-grid a {
                 flex: 1 1 25%;
+            }
+            .floating-top,
+            .floating-bottom {
+                width: 100%;
+                left: 0;
+                transform: none;
             }
 
             .wrapper {
@@ -408,6 +440,17 @@
                 LIVE DRAW HK LOTTO
             </a>
         </nav>
+        <div class="floating-bottom">
+    <a href="http://dwlive.cc/Prediksi4angka" target="_blank" rel="nofollow noopener">
+        <amp-img
+            src="img/DEWALIVE-1080X135.png"
+            width="1080"
+            height="135"
+            layout="responsive"
+            alt="Bottom Banner">
+        </amp-img>
+    </a>
+</div>
 
         <main class="main-box">
 
@@ -452,6 +495,16 @@
                 sesuai jadwal tanpa perlu memuat ulang halaman. Dengan tampilan ini,
                 Anda bisa langsung memantau hasil terbaru setiap hari dengan cepat dan akurat.
             </p>
+
+            <a href="http://dwlive.cc/Prediksi4angka" target="_blank">
+                <amp-img
+                    src="img/DEWAPOKER-1080X135.png"
+                     width="1080"
+                     height="135"
+                     layout="responsive"
+                     alt="Dewa Live Draw HK Lotto">
+                </amp-img>
+            </a>
 
             <div class="live-draw-box">
 
